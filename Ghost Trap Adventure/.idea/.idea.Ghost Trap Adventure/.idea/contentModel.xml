@@ -3,10 +3,32 @@
   <component name="ContentModelStore">
     <e p="C:\Users\Ill Be There\.Rider2018.3\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\Ill Be There\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Ghost Trap Adventure.2134237007.00" t="ExcludeRecursive" />
-    <e p="D:\Kuliah\Semester 5\Pemrograman Game\Unity File\Kelompok\Ghost-Trap-Adventure\Ghost Trap Adventure" t="IncludeFlat">
+    <e p="D:\Kuliah\Semester 5\Pemrograman Game\Unity File\Kelompok\Ghost-Trap-Adventure\Ghost Trap Adventure" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="AutoReplay.cs" t="Include" />
+          <e p="Bullet.cs" t="Include" />
+          <e p="Data.cs" t="Include" />
+          <e p="EnemyController.cs" t="Include" />
+          <e p="FollowTarget.cs" t="Include" />
+          <e p="GameOver.cs" t="Include" />
+          <e p="PlayerController.cs" t="Include" />
+          <e p="QuitOrNext.cs" t="Include" />
+          <e p="ShowScore.cs" t="Include" />
+          <e p="SoundManager.cs" t="Include" />
+        </e>
+        <e p="Sprites" t="Include">
+          <e p="Abandoned Castle Platform Set" t="Include">
+            <e p="Help File.txt" t="Include" />
+          </e>
+        </e>
+      </e>
       <e p="Ghost Trap Adventure.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />
-      <e p="Temp" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
   </component>
 </project>
