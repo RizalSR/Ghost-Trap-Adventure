@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class ShowNyawa : MonoBehaviour
 {
+    public static int UbahScore = 600;
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -13,7 +14,7 @@ public class ShowNyawa : MonoBehaviour
             SceneManager.LoadScene("GameOver");
         }
 
-        if(Data.score == 600){
+        if(Data.score == UbahScore){
             Data.nyawa +=1;
         }
     }
