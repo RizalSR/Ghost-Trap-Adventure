@@ -25,4 +25,9 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
+
+    public void selectCharacter()
+    {
+        SceneManager.LoadScene("SelectCharacter");
+    }
 }
