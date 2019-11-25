@@ -9608,6 +9608,7 @@ MonoBehaviour:
   m_GroundCheck: {fileID: 1580116419}
   m_CeilingCheck: {fileID: 277194105}
   m_CrouchDisableCollider: {fileID: 1472717700}
+  audioclip1: {fileID: 8300000, guid: 3288def2761a050489a09fe5803bd6a2, type: 3}
   OnLandEvent:
     m_PersistentCalls:
       m_Calls:
