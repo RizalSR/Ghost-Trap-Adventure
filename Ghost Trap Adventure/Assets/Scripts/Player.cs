@@ -17,8 +17,9 @@ public class Player : MonoBehaviour
     void Update()
     {
         if (isDead == true){
-            
-            SceneManager.LoadScene("Level2");
+            int scene = SceneManager.GetActiveScene().buildIndex;
+            SceneManager.LoadScene(scene, LoadSceneMode.Single);
+            Time.timeScale = 1;
         }
 
     }
