@@ -7,7 +7,7 @@ public class ShowNyawa : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        GetComponent<Text>().text = Data.nyawa.ToString();
+        GetComponent<Text>().text = "x" +Data.nyawa.ToString();
 
         if(Data.nyawa == 0){
             SceneManager.LoadScene("GameOver");
