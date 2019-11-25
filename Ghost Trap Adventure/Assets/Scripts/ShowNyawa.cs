@@ -11,6 +11,7 @@ public class ShowNyawa : MonoBehaviour
 
         if(Data.nyawa == 0){
             SceneManager.LoadScene("GameOver");
+            Data.nyawa = 5;
         }
 
         if(Data.score == 600){

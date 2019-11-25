@@ -30,6 +30,7 @@ public class Player : MonoBehaviour
             isDead = true;
             anim.SetTrigger("Dead");
             Data.nyawa --;
+            Data.score = 0;
         }
     }
 }

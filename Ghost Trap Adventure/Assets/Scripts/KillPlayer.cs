@@ -1,16 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class KillPlayer : MonoBehaviour
 {
-    [SerializeField] public Transform spawnPoint;
 
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.transform.CompareTag("Player"))
         {
-            other.transform.position = spawnPoint.position;
+            Data.nyawa--;
+            Data.score = 0;
+            int scene = SceneManager.GetActiveScene().buildIndex;
+            SceneManager.LoadScene(scene, LoadSceneMode.Single);
+            Time.timeScale = 1;
         }
     }
 }
