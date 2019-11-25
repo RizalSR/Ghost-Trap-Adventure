@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Coin
   - KillPoint
+  - Jebakan
   layers:
   - Default
   - TransparentFX
