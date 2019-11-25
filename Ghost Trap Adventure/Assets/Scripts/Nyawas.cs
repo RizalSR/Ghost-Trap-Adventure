@@ -6,20 +6,20 @@ using UnityEngine.UI;
 
 public class Nyawas : MonoBehaviour
 {
-    public float scrollSpeed = -1.5f;
+    // public float scrollSpeed = -1.5f;
     public static Nyawas instance;
-    public GameObject gameOvertext;
-    public bool gameOver = false;
+    // public GameObject gameOvertext;
+    // public bool gameOver = false;
     public Text Score;      
     public Text Nyawa;  
-    public int nyw;  
+    public int nyw = 5;  
     private int score = 0;
 
 
     void Awake()
     {
-        // if (instance == null)
-        //     instance = this;
+        if (instance == null)
+             instance = this;
         // else if (instance != this)
         //     Destroy(gameObject);
     }
@@ -39,10 +39,13 @@ public class Nyawas : MonoBehaviour
 
     public void TambahNyawa()
     {
-        if (Score.text = 20)
-            Score.text = 0;
-            nyw =+1;
+        int parsedInt = 150;
+        if (int.TryParse(Score.text, out parsedInt))
+            score = 0;
+            Score.text = "" + score.ToString();
+            nyw ++;
             Nyawa.text = "X" + nyw.ToString();
         }
+
 
 }
