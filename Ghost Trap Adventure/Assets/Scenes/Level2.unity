@@ -469,7 +469,7 @@ GameObject:
   - component: {fileID: 21243811}
   m_Layer: 0
   m_Name: Paku
-  m_TagString: Untagged
+  m_TagString: Paku
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21218,6 +21218,7 @@ GameObject:
   - component: {fileID: 1584691126}
   - component: {fileID: 1584691128}
   - component: {fileID: 1584691127}
+  - component: {fileID: 1584691129}
   m_Layer: 5
   m_Name: Nyawa
   m_TagString: Untagged
@@ -21284,6 +21285,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1584691125}
   m_CullTransparentMesh: 0
+--- !u!114 &1584691129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1584691125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eae86fd62d5e94459c0af562d7a13ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1587221223
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24021,7 +24034,6 @@ GameObject:
   - component: {fileID: 1813604918}
   - component: {fileID: 1813604917}
   - component: {fileID: 1813604921}
-  - component: {fileID: 1813604920}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -24095,21 +24107,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1813604920
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1813604916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21b66801875576242a3ebf1c532bb586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Score: {fileID: 0}
-  Nyawa: {fileID: 0}
-  nyw: 5
 --- !u!114 &1813604921
 MonoBehaviour:
   m_ObjectHideFlags: 0
