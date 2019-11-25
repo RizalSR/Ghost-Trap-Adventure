@@ -22,8 +22,8 @@ public class GameOver : MonoBehaviour
         {  
                 SceneManager.LoadScene("Congratulations");       
         }
-        txHighScore.text = "Highscores: " + highscore;
-        txScore.text = Data.score.ToString();
+        // txHighScore.text = "Highscores: " + highscore;
+        // txScore.text = Data.score.ToString();
     }
     
     public void Replay()
