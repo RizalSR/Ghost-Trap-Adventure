@@ -23,7 +23,7 @@ public class GameOver : MonoBehaviour
                 SceneManager.LoadScene("Congratulations");       
         }
         txHighScore.text = "Highscores: " + highscore;
-        txScore.text = Data.score.ToString;
+        txScore.text = Data.score.ToString();
     }
     
     public void Replay()
