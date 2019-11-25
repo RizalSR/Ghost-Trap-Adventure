@@ -26,11 +26,19 @@ public class Player : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.transform.tag.Equals("Paku")){
-            isDead = true;
-            anim.SetTrigger("Dead");
-            Data.nyawa --;
-            Data.score = 0;
+        if (other.transform.tag.Equals("Paku"))
+        {
+            if(Data.nyawa == 1)
+            {
+                isDead = true;
+                anim.SetTrigger("Dead");
+                Data.nyawa --;
+            } else {
+                Data.score = 0;
+                isDead = true;
+                anim.SetTrigger("Dead");
+                Data.nyawa --;
+            }
         }
     }
 }

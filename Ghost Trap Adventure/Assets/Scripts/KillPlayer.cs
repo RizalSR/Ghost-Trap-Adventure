@@ -10,11 +10,21 @@ public class KillPlayer : MonoBehaviour
     {
         if (other.transform.CompareTag("Player"))
         {
-            Data.nyawa--;
-            Data.score = 0;
-            int scene = SceneManager.GetActiveScene().buildIndex;
-            SceneManager.LoadScene(scene, LoadSceneMode.Single);
-            Time.timeScale = 1;
+            if(Data.nyawa == 1)
+            {
+                Data.nyawa--;
+                int scene = SceneManager.GetActiveScene().buildIndex;
+                SceneManager.LoadScene(scene, LoadSceneMode.Single);
+                Time.timeScale = 1;
+            } else
+            {
+                Data.nyawa--;
+                Data.score = 0;
+                int scene = SceneManager.GetActiveScene().buildIndex;
+                SceneManager.LoadScene(scene, LoadSceneMode.Single);
+                Time.timeScale = 1;
+            }
+           
         }
     }
 }
