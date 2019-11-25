@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84c87003-506f-4646-81d3-61eed7e6a6bd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Ghost Trap Adventure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Ghost Trap Adventure/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,10 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ControllerMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1720">
+            <state relative-caret-position="-751">
               <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
               <folding>
                 <marker date="1574693807607" expanded="false" signature="6:104" ph="..." />
@@ -64,6 +65,21 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/KillPlayer.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+              <folding>
+                <marker date="1574699380709" expanded="false" signature="6:78" ph="..." />
+                <marker date="1574699380709" expanded="true" signature="119:371" ph="{...}" />
+                <marker date="1574699380709" expanded="true" signature="227:369" ph="{...}" />
+                <marker date="1574699380709" expanded="true" signature="283:363" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -71,6 +87,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ControllerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Level3.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/KillPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Level1.unity" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -80,6 +98,7 @@
         <option value="$PROJECT_DIR$/Assets/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ControllerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/KillPlayer.cs" />
       </list>
     </option>
   </component>
@@ -167,7 +186,7 @@
       <workItem from="1574477029754" duration="5240000" />
       <workItem from="1574648570236" duration="1597000" />
       <workItem from="1574665681699" duration="4346000" />
-      <workItem from="1574688369046" duration="5795000" />
+      <workItem from="1574688369046" duration="6854000" />
     </task>
     <task id="LOCAL-00001" summary="Level1">
       <created>1574665910995</created>
@@ -211,11 +230,25 @@
       <option name="project" value="LOCAL" />
       <updated>1574695366017</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Level3">
+      <created>1574695974634</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1574695974634</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Level3">
+      <created>1574696161927</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1574696161927</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19342000" />
+    <option name="totallyTimeSpent" value="20401000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -272,7 +305,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Level1" />
     <MESSAGE value="Level2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Level2" />
+    <MESSAGE value="Level3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Level3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -312,7 +346,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ControllerMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1720">
+        <state relative-caret-position="-751">
           <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
           <folding>
             <marker date="1574693807607" expanded="false" signature="6:104" ph="..." />
@@ -337,6 +371,19 @@
             <marker date="1574693807607" expanded="true" signature="4829:4912" ph="{...}" />
             <marker date="1574693807607" expanded="true" signature="4966:5138" ph="{...}" />
             <marker date="1574693807607" expanded="true" signature="5024:5135" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/KillPlayer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+          <folding>
+            <marker date="1574699380709" expanded="false" signature="6:78" ph="..." />
+            <marker date="1574699380709" expanded="true" signature="119:371" ph="{...}" />
+            <marker date="1574699380709" expanded="true" signature="227:369" ph="{...}" />
+            <marker date="1574699380709" expanded="true" signature="283:363" ph="{...}" />
           </folding>
         </state>
       </provider>
