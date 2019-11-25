@@ -10,8 +10,6 @@ public class FallingObject : MonoBehaviour
     public float speed = 300.0f;
     [SerializeField]
     private Rigidbody2D rb;
-    [SerializeField]
-    public Transform spawnPoint;
 
     public GameObject safe;
 
@@ -43,6 +41,7 @@ public class FallingObject : MonoBehaviour
                 int scene = SceneManager.GetActiveScene().buildIndex;
                 SceneManager.LoadScene(scene, LoadSceneMode.Single);
                 Time.timeScale = 1;
+                Data.score = 0;
             }
 
             if (safe)
