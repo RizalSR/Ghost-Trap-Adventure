@@ -21,6 +21,9 @@ public class ControllerMovement : MonoBehaviour
 	private bool m_FacingRight = true;  // For determining which way the player is currently facing.
 	private Vector3 m_Velocity = Vector3.zero;
 
+	private AudioSource audio1;
+	public AudioClip audioclip1;
+
 	[Header("Events")]
 	[Space]
 
@@ -146,12 +149,19 @@ public class ControllerMovement : MonoBehaviour
 		transform.localScale = theScale;
 	}
 
+	private void Start(){
+		audio1 = gameObject.AddComponent<AudioSource>();
+		audio1.clip = audioclip1;
+	}
+
 	private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.transform.tag.Equals("Coin"))
         {
             Data.score += 15;
             Destroy(collision.gameObject);
+			audio1.Play();
         }
 	}
+
 }
