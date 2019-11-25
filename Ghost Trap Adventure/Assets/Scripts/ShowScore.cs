@@ -7,5 +7,9 @@ public class ShowScore : MonoBehaviour
     void FixedUpdate()
     {
         GetComponent<Text>().text = Data.score.ToString("000");
+
+        if(Data.score == 600){
+            Data.score = 000;
+        }
     }
 }
