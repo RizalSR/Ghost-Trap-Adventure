@@ -9,16 +9,23 @@
         <e p="Scripts" t="Include">
           <e p="AutoReplay.cs" t="Include" />
           <e p="Bullet.cs" t="Include" />
+          <e p="CongratulationController.cs" t="Include" />
           <e p="ControllerMovement.cs" t="Include" />
           <e p="Data.cs" t="Include" />
           <e p="EnemyController.cs" t="Include" />
+          <e p="FallingObject.cs" t="Include" />
           <e p="FollowTarget.cs" t="Include" />
           <e p="GameOver.cs" t="Include" />
           <e p="GetCoin.cs" t="Include" />
+          <e p="Jebakan.cs" t="Include" />
+          <e p="KillPlayer.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
+          <e p="Nyawas.cs" t="Include" />
+          <e p="Player.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="QuitOrNext.cs" t="Include" />
+          <e p="ShowNyawa.cs" t="Include" />
           <e p="ShowScore.cs" t="Include" />
           <e p="SoundManager.cs" t="Include" />
         </e>
