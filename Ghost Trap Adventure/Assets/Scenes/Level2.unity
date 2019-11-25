@@ -6207,7 +6207,7 @@ GameObject:
   - component: {fileID: 509028206}
   - component: {fileID: 509028205}
   m_Layer: 0
-  m_Name: Tile_22 (73)
+  m_Name: Hide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13727,7 +13727,7 @@ GameObject:
   - component: {fileID: 962950332}
   - component: {fileID: 962950331}
   m_Layer: 0
-  m_Name: Tile_22 (59)
+  m_Name: Hide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13741,8 +13741,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 962950329}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 34.83, y: -0.25, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.1, z: 0}
+  m_LocalPosition: {x: 35.51, y: -0.25, z: 0}
+  m_LocalScale: {x: 1, y: 0.1, z: 0}
   m_Children: []
   m_Father: {fileID: 1323154123}
   m_RootOrder: 7
