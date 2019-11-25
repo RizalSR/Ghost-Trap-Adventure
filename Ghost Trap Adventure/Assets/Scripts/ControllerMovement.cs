@@ -145,4 +145,13 @@ public class ControllerMovement : MonoBehaviour
 		theScale.x *= -1;
 		transform.localScale = theScale;
 	}
+
+	private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.transform.tag.Equals("Coin"))
+        {
+            Data.score += 15;
+            Destroy(collision.gameObject);
+        }
+	}
 }
