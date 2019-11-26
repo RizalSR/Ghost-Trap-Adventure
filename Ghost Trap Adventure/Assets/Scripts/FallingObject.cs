@@ -38,6 +38,7 @@ public class FallingObject : MonoBehaviour
         {
             if (other.gameObject.name.Equals("Player"))
             {
+                Data.nyawa--;
                 int scene = SceneManager.GetActiveScene().buildIndex;
                 SceneManager.LoadScene(scene, LoadSceneMode.Single);
                 Time.timeScale = 1;
