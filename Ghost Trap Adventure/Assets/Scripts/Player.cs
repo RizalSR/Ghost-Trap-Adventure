@@ -40,5 +40,20 @@ public class Player : MonoBehaviour
                 Data.nyawa --;
             }
         }
+
+        if (other.transform.tag.Equals("Enemy"))
+        {
+            if(Data.nyawa == 1)
+            {
+                isDead = true;
+                anim.SetTrigger("Dead");
+                Data.nyawa --;
+            } else {
+                Data.score = 0;
+                isDead = true;
+                anim.SetTrigger("Dead");
+                Data.nyawa --;
+            }
+        }
     }
 }
