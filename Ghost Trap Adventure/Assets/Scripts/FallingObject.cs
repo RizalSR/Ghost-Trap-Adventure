@@ -38,27 +38,29 @@ public class FallingObject : MonoBehaviour
         {
             if (other.gameObject.name.Equals("Player"))
             {
-		if(Data.nyawa == 1)
-            	{
-               	 Data.nyawa--;
-               	 int scene = SceneManager.GetActiveScene().buildIndex;
-               	 SceneManager.LoadScene(scene, LoadSceneMode.Single);
-               	 Time.timeScale = 1;
-            	}else{
-		 Data.nyawa--;
-               	 int scene = SceneManager.GetActiveScene().buildIndex;
-               	 SceneManager.LoadScene(scene, LoadSceneMode.Single);
-               	 Time.timeScale = 1;
-		 Data.score = 0;
-		}
+                if(Data.nyawa == 1)
+                        {
+                         Data.nyawa--;
+                         int scene = SceneManager.GetActiveScene().buildIndex;
+                         SceneManager.LoadScene(scene, LoadSceneMode.Single);
+                         Time.timeScale = 1;
+                        }else{
+                 Data.nyawa--;
+                         int scene = SceneManager.GetActiveScene().buildIndex;
+                         SceneManager.LoadScene(scene, LoadSceneMode.Single);
+                         Time.timeScale = 1;
+                 Data.score = 0;
+                }
+            }
+        }
 
-            if (safe)
+        if (safe)
             {
                 disableTrap = true;
                 gameObject.layer = 8;
             }
-	}
-        }
+	    
+        
         
 
     }
