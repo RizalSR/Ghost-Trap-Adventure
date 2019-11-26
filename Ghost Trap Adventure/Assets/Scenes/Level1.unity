@@ -9636,7 +9636,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.3157618}
+  m_Offset: {x: -0.24018383, y: -0.3157618}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -9647,7 +9647,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.3684764}
+  m_Size: {x: 0.6340046, y: 0.3684764}
   m_EdgeRadius: 0
 --- !u!1 &958280272
 GameObject:
@@ -9877,6 +9877,8 @@ GameObject:
   m_Component:
   - component: {fileID: 975730264}
   - component: {fileID: 975730265}
+  - component: {fileID: 975730267}
+  - component: {fileID: 975730266}
   m_Layer: 8
   m_Name: Pintu1
   m_TagString: Untagged
@@ -9947,6 +9949,75 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &975730266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975730263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2e2f881fb69a5b4c8b20ff99f7d2968, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NameScene: Level2
+--- !u!60 &975730267
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975730263}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.75, y: 1.95}
+    newSize: {x: 1.75, y: 1.95}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.865, y: -0.91499996}
+      - {x: 0.865, y: 0.235}
+      - {x: 0.805, y: 0.625}
+      - {x: 0.66499996, y: 0.765}
+      - {x: 0.525, y: 0.885}
+      - {x: 0.225, y: 0.955}
+      - {x: 0.065, y: 0.965}
+      - {x: -0.13499999, y: 0.965}
+      - {x: -0.405, y: 0.935}
+      - {x: -0.49499997, y: 0.885}
+      - {x: -0.59499997, y: 0.79499996}
+      - {x: -0.715, y: 0.675}
+      - {x: -0.79499996, y: 0.565}
+      - {x: -0.84499997, y: 0.325}
+      - {x: -0.865, y: 0.185}
+      - {x: -0.85499996, y: -0.36499998}
+      - {x: -0.865, y: -0.39499998}
+      - {x: -0.865, y: -0.685}
+      - {x: -0.85499996, y: -0.92499995}
+      - {x: -0.825, y: -0.965}
+      - {x: -0.73499995, y: -0.97499996}
+      - {x: -0.235, y: -0.97499996}
+      - {x: -0.024999999, y: -0.945}
+      - {x: -0.015, y: -0.97499996}
+      - {x: 0.085, y: -0.97499996}
+      - {x: 0.265, y: -0.945}
+      - {x: 0.275, y: -0.97499996}
+      - {x: 0.325, y: -0.97499996}
+      - {x: 0.355, y: -0.965}
+      - {x: 0.435, y: -0.97499996}
+      - {x: 0.825, y: -0.97499996}
 --- !u!1001 &975845188
 PrefabInstance:
   m_ObjectHideFlags: 0
