@@ -4395,7 +4395,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 408397578}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -575.95996, y: 274.19998, z: -6479.9976}
+  m_LocalPosition: {x: -598, y: 326.8649, z: -6479.9976}
   m_LocalScale: {x: 141.44615, y: 141.44615, z: 141.44615}
   m_Children: []
   m_Father: {fileID: 1547625974}
@@ -10705,7 +10705,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -458.96, y: 274.19998}
+  m_AnchoredPosition: {x: -484, y: 326.8649}
   m_SizeDelta: {x: 160, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1044467600
@@ -20232,6 +20232,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4455610978091630122, guid: 274581ae49f43ad4d842097c86912779,
+        type: 3}
+      propertyPath: m_GravityScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4613504127564816591, guid: 274581ae49f43ad4d842097c86912779,
         type: 3}
       propertyPath: m_Size.x
@@ -20241,11 +20246,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 1.87
-      objectReference: {fileID: 0}
-    - target: {fileID: 4455610978091630122, guid: 274581ae49f43ad4d842097c86912779,
-        type: 3}
-      propertyPath: m_GravityScale
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 274581ae49f43ad4d842097c86912779, type: 3}
@@ -21084,6 +21084,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4455610978091630122, guid: 274581ae49f43ad4d842097c86912779,
+        type: 3}
+      propertyPath: m_GravityScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4613504127564816591, guid: 274581ae49f43ad4d842097c86912779,
         type: 3}
       propertyPath: m_Size.x
@@ -21093,11 +21098,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 1.87
-      objectReference: {fileID: 0}
-    - target: {fileID: 4455610978091630122, guid: 274581ae49f43ad4d842097c86912779,
-        type: 3}
-      propertyPath: m_GravityScale
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 274581ae49f43ad4d842097c86912779, type: 3}
