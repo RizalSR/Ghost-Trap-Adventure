@@ -8,6 +8,8 @@ TagManager:
   - KillPoint
   - Jebakan
   - Paku
+  - Enemy
+  - Peluru
   layers:
   - Default
   - TransparentFX
