@@ -57,6 +57,7 @@ public class FallingObject : MonoBehaviour
                 disableTrap = true;
                 gameObject.layer = 8;
             }
+	}
         }
         
 
