@@ -30,6 +30,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level2Girl.unity
     guid: f9c794fbfa3834445842a231a8c170b1
   - enabled: 1
+    path: Assets/Level3Girl.unity
+    guid: a9949b6acb0d8d54ab9dd9c008c0077f
+  - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 6943e000681540548ba4e979ffe21166
   - enabled: 1

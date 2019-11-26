@@ -10,6 +10,11 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("Level1");
     }
 
+    public void PlayGirl()
+    {
+        SceneManager.LoadScene("Level1Girl");
+    }
+
     public void Controls()
     {
         SceneManager.LoadScene("Controls");
