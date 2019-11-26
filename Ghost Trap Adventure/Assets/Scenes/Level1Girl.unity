@@ -9938,7 +9938,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2e2f881fb69a5b4c8b20ff99f7d2968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NameScene: Level2
+  NameScene: Level2Girl
 --- !u!60 &975730267
 PolygonCollider2D:
   m_ObjectHideFlags: 0
